@@ -27,7 +27,7 @@ const EnhancedApplicationForm = ({ jobTitle, jobDescription }) => {
   const [blockingMessage, setBlockingMessage] = useState('');
 
   // API endpoint from your check.py file
-  const API_ENDPOINT = "http://127.0.0.1:8000/api/candidates/";
+  const API_ENDPOINT = "http://job-portal-backend-4jofiq-bccafa-3-138-202-184.traefik.me/api/candidates/";
 
   // Validation functions (same as original)
   const validateEmail = (email) => {
